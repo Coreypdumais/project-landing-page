@@ -7,10 +7,13 @@
 .header {
     display: flex;
     font: 18px #E5E7EB;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+
 
 }
-
 
 .header-links  {
     display: flex;
@@ -24,3 +27,35 @@
     color: #E5E7EB;
     
 }
+
+.hero-all {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+}
+
+#hero-header {
+    background-color: #;
+    color: #F9FAF8;
+    size: 48PX;
+    font-weight: 900;
+}
+
+#hero-text {
+
+    background-color: 1F2937;
+    color: #E5E7EB;
+    size: 18PX;
+}
+
+.hero-left {
+    padding: 75px;
+}
+.hero-right {
+    padding: 75PX;
+    background-color: #E5E7EB;
+
+}
+
+
+
