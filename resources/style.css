@@ -37,7 +37,8 @@ body {
 
 .button-signup {
     background-color: #3882F6;
-    border: none;
+    border: solid;
+
     color: #E5E7EB;
     padding: 16px 32px;
     text-align: center;
@@ -47,6 +48,7 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 12px;
+    border-color: #E5E7EB;
 }
 
 #hero-header {
@@ -127,6 +129,7 @@ li {
     font-style: italic;
     justify-content: center;
     align-items: center;
+    padding: 25px;
     
 
 }
@@ -135,6 +138,7 @@ li {
     font-weight: 600;
     display: flex;
     justify-content: end;
+    padding: 5px;
 
 }
 
@@ -147,13 +151,19 @@ li {
 }
 
 .call-to-action {
+    display: flex;
     background-color: #3882F6;
     border-radius: 25px;
-    padding: 25px
+    padding: 10px;
 
 }
 
-#call-to-text {
+.call-to-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-text {
     font-size: 18px;
     color: #E5E7EB;
 }
